@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <style>
+            .container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  padding: 5px;
+
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.header1 {
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    
+}
+div.nav {  
+    grid-area: auto;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+
+}
+.container div.header2 {
+  grid-area: header;
+  text-align: center;
+    color: white;
+    background-color: darkslategray;
+}
+.container aside.menu {
+  grid-area: menu;
+  background-color: white;
+  color: darkslategray;
+}
+.container div.content {
+  grid-area: content;
+  text-align: left;
+    color: white;
+    background-color: darkslategray;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center; 
+    color: white;
+    background-color: darkslategray;
+}
+        </style>
+    
+    </head>
+
+<body>
+    <h1 class="header1">Sports Events Around Philly!</h1>
+    <div class="nav"><nav>
+        <a href="https://www.ticketmaster.com/philadelphia-76ers-vs-new-york-knicks-philadelphia-pennsylvania-02-11-2026/event/3000630DDC1640DB">
+            Sixers Tickets</a> |
+        <a href="https://www.ticketmaster.com/philadelphia-wings-vs-saskatchewan-rush-philadelphia-pennsylvania-02-22-2026/event/30006332FDFA57CD">
+            Wings Tickets</a> |
+        <a href="https://www.ticketmaster.com/philadelphia-flyers-vs-boston-bruins-philadelphia-pennsylvania-02-28-2026/event/300062EFA9843497">
+            Flyers Tickets</a></nav></div>
+    <div class="container">
+  <div class="header2"><h2>Check Out These Exciting Upcoming Sports Events!</h2></div>
+  <aside class="menu"><nav>
+        <a href="https://www.ticketmaster.com/philadelphia-76ers-vs-new-york-knicks-philadelphia-pennsylvania-02-11-2026/event/3000630DDC1640DB">
+            Sixers Tickets</a><br>
+        <a href="https://www.ticketmaster.com/philadelphia-wings-vs-saskatchewan-rush-philadelphia-pennsylvania-02-22-2026/event/30006332FDFA57CD">
+            Wings Tickets</a> <br>
+        <a href="https://www.ticketmaster.com/philadelphia-flyers-vs-boston-bruins-philadelphia-pennsylvania-02-28-2026/event/300062EFA9843497">
+            Flyers Tickets</a> <br>
+    </nav></aside>
+  <div class="content">
+    <h3 class="eventtitle">Philadelphia 76ers Vs New York Knicks</h3>
+    <ul class=eventinfo>
+        <li>Wednesday Feb 11th</li>
+        <li>7:30PM</li>
+        <li>At Xfinity Mobile Arena - Philadelphia, PA</li></ul><br>
+    <h3 class="eventtitle">Philadelphia Wings Vs Saskatchewan Rush</h3>
+    <ul class=eventinfo>
+        <li>Sunday Feb 22nd</li>
+        <li>3:00PM</li>
+        <li>At Xfinity Mobile Arena - Philadelphia, PA</li></ul><br>
+        <h3 class="eventtitle">Philadelphia Flyers Vs Boston Bruins</h3>
+    <ul class=eventinfo>
+        <li>Saturday Feb 28th</li>
+        <li>3:00PM</li>
+        <li>At Xfinity Mobile Arena - Philadelphia, PA</li></ul><br>
+    </div>
+  <div class="footer"><h4>GO BIRDS!</h4></div>
+</div>
+</body>
+</head>
